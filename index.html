@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Registro de Pessoas Desaparecidas</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Registro de Pessoas Desaparecidas</h1>
+        <form id="form" action="cadastrar.php" method="post">
+            <label for="name">Nome da Pessoa Desaparecida:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="description">Descrição:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="contact">Informações de Contato:</label>
+            <input type="text" id="contact" name="contact" required>
+
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
