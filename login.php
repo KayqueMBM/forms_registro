@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Em um ambiente de produção, utilize técnicas seguras como hash para armazenar senhas
 
     // Exemplo de redirecionamento após o login bem-sucedido
-    header("Location: home.html");
+    header("Location: index.html");
     exit();
 }
 ?>
